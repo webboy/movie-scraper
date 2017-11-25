@@ -1,0 +1,25 @@
+{
+    "name": "webboy/movie-scraper",
+    "description": "PHP library that scrapes the DOM of the HTML page for movie related data.",
+    "version": "1.0",
+    "license": "MIT",
+    "keywords": ["DOM", "HTML","movie","scraper","webboy"],
+    "authors": [
+        {
+            "name": "webboy",
+            "email": "extramedia.nemanja@gmail.com",
+            "homepage": "https://www.linkedin.com/in/nemanja-milenkovic-1477083b",
+            "role": "Developer"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0",
+        "fabpot/goutte": "^3.2"
+    },
+    "autoload": {
+        "psr-4": {
+            "Webboy\\MovieScraper\\": "src"
+        }
+    }
+}
